@@ -1,0 +1,34 @@
+Netflix Content Strategy Analysis Summary
+1. Data Overview
+A comprehensive study of over 8,800 titles (Movies and TV Shows) available on Netflix. The analysis focuses on how the streaming giant has scaled its library and diversified its content globally.
+
+2. Data Preparation & Cleaning
+Missing Data Strategy: Addressed significant gaps in Director and Cast metadata to prevent biased results in creative analysis.
+
+Time-Series Standardization: Converted varied date strings into a unified Datetime format, enabling the tracking of content "Drop" trends over the last decade.
+
+Cleaning: Removed duplicates and handled null values in Rating to ensure demographic insights were accurate.
+
+3. Key Insights & Results
+The Pivot to Original Content: Analysis shows a massive exponential growth in content additions starting in 2015, peaking around 2018–2019, aligning with Netflix’s shift toward "Originals."
+
+Content Mix: Movies dominate the library, making up roughly 70% of the total content, while TV Shows account for the remaining 30%, though TV Show additions are growing at a faster year-over-year rate.
+
+Audience Demographics: The most frequent ratings are TV-MA (Mature Audiences) and TV-14 (Parents Strongly Cautioned), indicating that Netflix's primary strategy targets adult and teen demographics rather than children.
+
+Global Footprint: The United States is the leading content producer, followed closely by India (specifically for Movies) and the United Kingdom.
+
+4. Visualizations Included
+
+Growth Trend Line: A time-series plot showing the surge in library size by year.
+
+Top 10 Producing Countries: A bar chart identifying the geographical hubs of Netflix content.
+
+Rating Distribution: A frequency plot showing the most common content maturity levels.
+
+5. Technical Skills Demonstrated
+Large Dataset Handling: Efficiently processing 8,000+ rows of unstructured text data.
+
+Feature Extraction: Generating "Year Added" and "Month Added" from date strings.
+
+Advanced Seaborn Styling: Using specific color palettes and heatmaps to make data more digestible
